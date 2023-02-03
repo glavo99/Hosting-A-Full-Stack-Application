@@ -1,0 +1,59 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="zpA77cxzLKPJZO6Ycwon">
+        <mxGraphModel dx="810" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#92E0FC" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Cr-mdkpH5rrHif0cqy9v-12" value="commit changes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;labelBackgroundColor=none;fontColor=#121212;fontStyle=1;strokeColor=#0a0a0a;" parent="1" source="Cr-mdkpH5rrHif0cqy9v-1" edge="1">
+                    <mxGeometry x="-0.3939" y="20" relative="1" as="geometry">
+                        <mxPoint x="340" y="170" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Cr-mdkpH5rrHif0cqy9v-1" value="User" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=26;fontStyle=1;fontColor=#121212;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="230" width="100" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cr-mdkpH5rrHif0cqy9v-4" value="Circle CI" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;fontColor=#121212;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cr-mdkpH5rrHif0cqy9v-7" value="deploy to AWS" style="endArrow=classic;html=1;rounded=0;fontSize=26;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=#121212;fontStyle=1;strokeColor=#000000;" parent="1" source="Cr-mdkpH5rrHif0cqy9v-14" target="Cr-mdkpH5rrHif0cqy9v-8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="170" y="660" as="sourcePoint"/>
+                        <mxPoint x="320" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Cr-mdkpH5rrHif0cqy9v-8" value="AWS Cloud" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=26;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="600" width="180" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cr-mdkpH5rrHif0cqy9v-10" value="git hub" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontSize=26;fillColor=#fad7ac;strokeColor=#b46504;fontColor=#0d0d0d;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="80" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cr-mdkpH5rrHif0cqy9v-11" value="Triggers" style="endArrow=classic;html=1;rounded=0;fontSize=26;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#0d0d0d;fontStyle=1;strokeColor=#000000;" parent="1" source="Cr-mdkpH5rrHif0cqy9v-10" target="Cr-mdkpH5rrHif0cqy9v-4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="440" as="sourcePoint"/>
+                        <mxPoint x="450" y="390" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Cr-mdkpH5rrHif0cqy9v-13" value="start to build the app environment" style="endArrow=classic;rounded=0;fontSize=26;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=#0d0d0d;fontStyle=1;strokeColor=#0a0a0a;" parent="1" source="Cr-mdkpH5rrHif0cqy9v-4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="440" as="sourcePoint"/>
+                        <mxPoint x="630" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Cr-mdkpH5rrHif0cqy9v-14" value="Hold for user approval" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontSize=26;fillColor=#B266FF;strokeColor=#56517e;fontColor=#0a0a0a;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="380" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cr-mdkpH5rrHif0cqy9v-15" value="If passed all procedures" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;fontSize=26;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontColor=#050505;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="360" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="Cr-mdkpH5rrHif0cqy9v-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=26;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#080808;strokeColor=#0d0d0d;" parent="1" source="Cr-mdkpH5rrHif0cqy9v-15" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="380" as="sourcePoint"/>
+                        <mxPoint x="360" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
