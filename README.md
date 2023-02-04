@@ -1,6 +1,6 @@
 # Hosting a Full-Stack Application
 # Udagram
-
+## currently offline
 This is a Full-Stack application deployed to a cloud service (AWS) on [http://udagram-bucket-10630660.s3-website-us-east-1.amazonaws.com]
 And the code deployed to git hub on [https://github.com/glavo99/nd0067-c4-deployment-process-project-starter]
 The commits changes to this repository are for deployment NOT for development
